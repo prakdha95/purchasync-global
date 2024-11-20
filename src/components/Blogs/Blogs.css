@@ -74,4 +74,8 @@
 }
 .blogs_section .card h4, p, b{
     padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }

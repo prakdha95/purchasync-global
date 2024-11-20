@@ -1,6 +1,9 @@
 .app{
     height: 100vh;
 }
+.active{
+    color: var(--primary-color);
+}
 
 .underline{
     border-bottom: 5px solid unset;

@@ -6,6 +6,7 @@
     align-items: center;
     justify-content: space-between;
     padding: var(--primary-padding); 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
 }
 @media (max-width:700px){
     .main_nav .container{
@@ -15,7 +16,8 @@
 .main_nav .logo h2{
     font-size: 32px;
     font-family: 'Mulish', sans-serif;
-    text-shadow: 2px 2px gray
+    text-shadow: 2px 2px gray;
+    cursor: pointer;
 }
 @media (max-width:780px){
     .main_nav .logo h2{

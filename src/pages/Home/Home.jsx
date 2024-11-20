@@ -2,6 +2,7 @@ import { assets } from '../../assets/images'
 import Blogs from '../../components/Blogs/Blogs'
 import Services from '../../components/Services/Services'
 import Strength from '../../components/Strength/Strength'
+import Contact from '../../components/Contact/Contact'
 import './Home.css'
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
       <Services/>
       <Strength/>
       <Blogs/>
+      <Contact/>
     </>
   )
 }

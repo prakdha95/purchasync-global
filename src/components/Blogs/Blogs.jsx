@@ -1,7 +1,6 @@
 import { assets } from '../../assets/images';
 import './Blogs.css'
-import { FaArrowRight,  FaRecycle,FaChartBar } from 'react-icons/fa';
-import { MdOutlineNoFood } from "react-icons/md";
+import { FaArrowRight} from 'react-icons/fa';
 
 const Blogs = () => {
   return (
@@ -14,31 +13,31 @@ const Blogs = () => {
             <div className="service_cards">
                 <div className="card">
                     <div className='image'>
-                        <img src={assets.service1} alt="" />
+                        <img src={assets.brand_growth} alt="" />
                         {/* <div className='card_icon'> <FaRecycle size={30}/></div> */}
                     </div>
-                    <h4>Sustainable Solutions</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <h4>Driving Brand Growth</h4>
+                    <p>How Sustainable Marketing Solutions Can Future-Proof Your Business</p>
                     <b>Read More <FaArrowRight /></b>
                     <div className="overlay"></div>
                 </div>
                 <div className="card">
                     <div className='image'>
-                        <img src={assets.service2} alt="" />
+                        <img src={assets.procurement_image} alt="" />
                         {/* <div className='card_icon'> <FaChartBar size={30}/></div> */}
                     </div>
-                    <h4>Sustainable Solutions</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <h4>Procurement Services for Hospitality</h4>
+                    <p>Optimizing Hospitality Procurement: Strategies for Cost Efficiency and Exceptional Guest Experiences</p>
                     <b>Read More <FaArrowRight /></b>
                     <div className="overlay"></div>
                 </div>
                 <div className="card">
                     <div className='image'>
-                        <img src={assets.service3} alt="" />
+                        <img src={assets.tech_image} alt="" />
                         {/* <div className='card_icon'> <MdOutlineNoFood size={30}/></div> */}
                     </div>
-                    <h4>Sustainable Solutions</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <h4>Empowering Your Business with Tech </h4>
+                    <p>Empowering Your Business with Cutting-Edge IT Solutions for Digital Transformation"</p>
                     <b>Read More <FaArrowRight /></b>
                     <div className="overlay"></div>
                 </div>

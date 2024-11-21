@@ -2,7 +2,7 @@ footer{
     bottom: 0;
 }
 .footer .container{
-    width: 100vw;
+    /* width: 100vw; */
     padding: var(--primary-padding);
     display: flex;
     justify-content: space-between;

@@ -22,7 +22,9 @@ const Navbar = () => {
     <>
       <nav className='main_nav'>
         <div className="container">
-          <div onClick={() => navigate('/')} className="logo"><h2>Purchasync<span>Global</span></h2></div>
+          <div onClick={() => navigate('/')} className="logo">
+            <h2>Purchasync<span>Global</span></h2>
+          </div>
           <div className="nav_links">
             <ul>
               <li onClick={() => navigate('/')}>Home</li>
@@ -59,7 +61,7 @@ const Navbar = () => {
                           {showService && (
                             <div>
                               <ul>
-                                <li  onClick={() => navigate('/marketing')}>Marketing </li>
+                                <li onClick={() => navigate('/marketing')}>Marketing </li>
                                 <li onClick={() => navigate('/it')}>IT Services</li>
                                 <li onClick={() => navigate('/procurement')}>Procurement </li>
                                 <li onClick={() => navigate('/sales')}>Sales </li>

@@ -11,20 +11,24 @@ import Marketing from './pages/Marketing/Marketing'
 import IT from './pages/IT/IT'
 import Procurement from './pages/Procurement/Procurement'
 import Sales from './pages/Sales/Sales'
+import ScrollToTop from './components/SctollTop/ScrollTop'
+import ScrollToTopButton from './components/SctollTop/ScrollTopBtn'
 
 const App = () => {
   return (
     <div className='app'>
       <Navbar />
+      <ScrollToTop />
+      <ScrollToTopButton />
       <Routes>
-        <Route path='/' element={ <Home/>} />
-        <Route path='/about' element={ <About/>} />
-        <Route path='/blogs' element={ <Blogs/>} />
-        <Route path='/contact' element={ <Contact/>} />
-        <Route path='/marketing' element={ <Marketing/>} />
-        <Route path='/it' element={ <IT/>} />
-        <Route path='/procurement' element={ <Procurement/>} />
-        <Route path='/sales' element={ <Sales/>} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/blogs' element={<Blogs />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/marketing' element={<Marketing />} />
+        <Route path='/it' element={<IT />} />
+        <Route path='/procurement' element={<Procurement />} />
+        <Route path='/sales' element={<Sales />} />
       </Routes>
       <Footer />
     </div>

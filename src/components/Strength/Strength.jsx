@@ -18,21 +18,21 @@ const Strength = () => {
                     <SlLayers size={60} color='#1243a8'/>
                     </div>
                     <h4>Experience</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <p>Years of hands-on experience in food & beverage and hospitality procurement.</p>
                 </div>
                 <div className="card">
                     <div className='image'>
                     <IoGitNetworkOutline size={60} color='#1243a8'/>
                     </div>
                     <h4>Network</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <p>Extensive network of global and regional manufacturers, suppliers and service providers.</p>
                 </div>
                 <div className="card">
                     <div className='image'>
                     <MdOutlineDataSaverOn size={60} color='#1243a8' />
                     </div>
                     <h4>Values</h4>
-                    <p>Our sustainable solutions integrate ESG principles into your supply chain, driving environmental and social impact for long-term success and resilience.</p>
+                    <p>Core values embeded to foster genuine relationship of collaboration and transparancy.</p>
                 </div>
             </div>
         </div>

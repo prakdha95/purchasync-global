@@ -1,7 +1,7 @@
 import { assets } from '../../assets/images';
 import './Blogs.css'
-import { FaArrowRight,  FaRecycle,FaChartBar } from 'react-icons/fa';
-import { MdOutlineNoFood } from "react-icons/md";
+import { FaArrowRight } from 'react-icons/fa';
+
 
 const Blogs = () => {
   return (

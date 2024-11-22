@@ -6,7 +6,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Blogs from './pages/Blogs/Blogs'
-import Contact from './pages/Contact/Contact'
+import ContactPage from './pages/Contact/Contact'
 import Marketing from './pages/Marketing/Marketing'
 import IT from './pages/IT/IT'
 import Procurement from './pages/Procurement/Procurement'
@@ -24,7 +24,7 @@ const App = () => {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/blogs' element={<Blogs />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<ContactPage />} />
         <Route path='/marketing' element={<Marketing />} />
         <Route path='/it' element={<IT />} />
         <Route path='/procurement' element={<Procurement />} />

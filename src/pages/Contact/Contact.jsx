@@ -1,9 +1,11 @@
 import './Contact.css'
+import Contact from '../../components/Contact/Contact'
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <>
-      <section className='contact_page_section'>
+    <Contact/>
+      {/* <section className='contact_page_section'>
         <div className="container">
             <h2>Get in touch</h2>
             <div className="underline"></div>
@@ -16,9 +18,9 @@ const Contact = () => {
             </form>
             
         </div>
-      </section>
+      </section> */}
     </>
   )
 }
 
-export default Contact
+export default ContactPage

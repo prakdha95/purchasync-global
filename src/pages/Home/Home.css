@@ -34,6 +34,7 @@
     padding-top: 150px;
     line-height: 1.2;
 }
+
 @media (max-width:950px) {
     .homepage .hero_section h2{
         font-size:60px;
@@ -62,6 +63,13 @@
     color: rgba(245, 245, 245, 0.848);
     padding-top: 32px;
     width: 60%;
+}
+@media (max-width:1025px) {
+    .hero_section .hero_info p{
+        color: rgba(245, 245, 245, 0.848);
+        padding-top: 32px;
+        width: 80%;
+    }
 }
 @media (max-width:700px){
     .hero_section .hero_info p{

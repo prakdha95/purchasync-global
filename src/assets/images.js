@@ -9,6 +9,8 @@ import procurement1_image from './procurement1.jpg'
 import tech_image from './tech_image.jpg'
 import marketing_image from './marketing.jpg'
 import it_solutions from './it_solutions.jpg'
+import logo from './Standard Logo.png'
+import banner from './static-banner.png'
 
 
 export const assets ={
@@ -22,5 +24,7 @@ export const assets ={
     tech_image,
     marketing_image,
     procurement1_image,
-    it_solutions
+    it_solutions,
+    logo,
+    banner
 }

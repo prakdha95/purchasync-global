@@ -36,6 +36,7 @@
     width: 100%;
     cursor: pointer;
 }
+
 .blogs_section .card .overlay{
     display: none;
 }
@@ -45,6 +46,12 @@
 .blogs_section .card .image {
     width: 100%;
     padding: 8px;
+    transform: rotateY(0deg);
+    transition: .8s ease;
+}
+.blogs_section .card:hover .image{
+    transform: rotateY(-180deg);
+    transition: .8s ease;
 }
 .blogs_section .card .image img{
     position: relative;

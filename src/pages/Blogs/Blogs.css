@@ -49,6 +49,10 @@
     width: 100%;
     padding: 8px;
 }
+.blogs_page_section .card:hover .image{
+    transform: rotateY(-180deg);
+    transition: 1s ease;
+}
 .blogs_page_section .card .image img{
     position: relative;
     width: 100%;

@@ -20,7 +20,7 @@ const Home = () => {
             <div className='hero_info'>
                 <h2> Smart Solutions for<br /><span>Marketing, Procurement, IT & Sales</span> </h2>
                 <p>Our dedication is centered on transforming your vision into actionable strategies that drive growth and profitability. We focus on optimizing efficiency and delivering exceptional customer service, ensuring long-term success and a competitive edge in the market.</p>
-                <button onClick={scrollToSection}>Check Our Services</button>
+                {/* <button onClick={scrollToSection}>Try Purchasync!</button> */}
             </div>
             <div className="overlay"></div>
         </section>

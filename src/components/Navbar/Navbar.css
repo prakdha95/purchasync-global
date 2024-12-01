@@ -13,6 +13,9 @@
         padding: var(--mobile-padding);
     }
 }
+.main_nav .logo {
+    width: 200px;
+}
 .main_nav .logo h2{
     font-size: 32px;
     font-family: 'Mulish', sans-serif;

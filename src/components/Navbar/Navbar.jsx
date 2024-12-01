@@ -3,6 +3,7 @@ import './Navbar.css'
 import { FaCaretDown, FaBars } from 'react-icons/fa';
 import { IoMdClose } from "react-icons/io";
 import { useNavigate } from 'react-router-dom'
+import { assets } from '../../assets/images'
 
 const Navbar = () => {
 
@@ -23,7 +24,8 @@ const Navbar = () => {
       <nav className='main_nav'>
         <div className="container">
           <div onClick={() => navigate('/')} className="logo">
-            <h2>Purchasync<span>Global</span></h2>
+            {/* <h2>Purchasync<span>Global</span></h2> */}
+            <img src={assets.logo} alt="" />
           </div>
           <div className="nav_links">
             <ul>

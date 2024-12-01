@@ -45,6 +45,12 @@
 .services_section .card .image {
     width: 100%;
     padding: 8px;
+    transform: rotateY(0deg);
+    transition: .8s ease;
+}
+.services_section .card:hover .image{
+    transform: rotateY(-180deg);
+    transition: .8s ease;
 }
 .services_section .card .image img{
     position: relative;

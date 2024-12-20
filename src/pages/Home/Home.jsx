@@ -28,7 +28,7 @@ const Home = () => {
         <section className='intro_section'>
             <div className="container">
                 <div className="left">
-                    <h4>Welcome to Global Purchasync!</h4>
+                    <h4>Welcome to Purchasync Global!</h4>
                     <h2>Your Path to Effortless Growth in Hospitality</h2>
                     <div className='underline'></div>
                     <p>Unlock the full potential of your hospitality business with our tailored solutions in marketing, procurement, and IT. Our expert team helps streamline your operations, optimize costs, and enhance guest experiences, all while driving sustainable growth. With our innovative strategies and seamless integration, we empower your business to thrive in a competitive and ever-evolving market, ensuring long-term success and resilience. </p>
